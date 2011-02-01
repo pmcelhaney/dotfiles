@@ -1,0 +1,12 @@
+[user]
+	name = Patrick McElhaney
+	email = patrick.mcElhaney@ally.com
+[core]
+	editor = mate -w
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        interactive = auto
+        ui = true
+        pager = true
