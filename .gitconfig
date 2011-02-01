@@ -3,10 +3,11 @@
 	email = patrick.mcElhaney@ally.com
 [core]
 	editor = mate -w
+	excludesfile = ~/.gitignore
 [color]
-        diff = auto
-        status = auto
-        branch = auto
-        interactive = auto
-        ui = true
-        pager = true
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = true
+	pager = true
