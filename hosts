@@ -9,6 +9,7 @@
 ::1             localhost 
 fe80::1%lo0	localhost
 
+10.130.145.5 git-server
 
 127.0.0.1 test.local
 
@@ -33,3 +34,4 @@ fe80::1%lo0	localhost
 127.0.0.1 sweet-n-sassy.dev
 127.0.0.1 widgets.dev
 127.0.0.1 bv.dev
+
