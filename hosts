@@ -1,0 +1,35 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost 
+fe80::1%lo0	localhost
+
+
+127.0.0.1 test.local
+
+127.0.0.1 FIS.dev
+127.0.0.1 ac-trueup.dev
+127.0.0.1 ally-base.dev
+127.0.0.1 allyforms_20090609.dev
+127.0.0.1 calculator.dev
+127.0.0.1 canada-modified.dev
+127.0.0.1 canada-modified2.dev
+127.0.0.1 corporate-rebrand.dev
+127.0.0.1 files.dev
+127.0.0.1 flowplayer.dev
+127.0.0.1 highcharts.dev
+127.0.0.1 jquery-require-sample.dev
+127.0.0.1 jquery-ui.dev
+127.0.0.1 me.dev
+127.0.0.1 raise-your-rate-cd.dev
+127.0.0.1 requirejs-old.dev
+127.0.0.1 requirejs-talk.dev
+127.0.0.1 sitecatalyst.dev
+127.0.0.1 sweet-n-sassy.dev
+127.0.0.1 widgets.dev
+127.0.0.1 bv.dev
