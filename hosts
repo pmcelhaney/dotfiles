@@ -4,34 +4,58 @@
 # localhost is used to configure the loopback interface
 # when the system is booting.  Do not change this entry.
 ##
-10.130.141.22	localhost
+127.0.0.1	localhost
 255.255.255.255	broadcasthost
 ::1             localhost 
 fe80::1%lo0	localhost
 
 10.130.145.5 git-server
 
-10.130.141.22 test.local
+127.0.0.1 test.local
 
-10.130.141.22 FIS.dev
-10.130.141.22 ac-trueup.dev
-10.130.141.22 ally-base.dev
-10.130.141.22 allyforms_20090609.dev
-10.130.141.22 calculator.dev
-10.130.141.22 canada-modified.dev
-10.130.141.22 canada-modified2.dev
-10.130.141.22 corporate-rebrand.dev
-10.130.141.22 files.dev
-10.130.141.22 flowplayer.dev
-10.130.141.22 highcharts.dev
-10.130.141.22 jquery-require-sample.dev
-10.130.141.22 jquery-ui.dev
-10.130.141.22 me.dev
-10.130.141.22 raise-your-rate-cd.dev
-10.130.141.22 requirejs-old.dev
-10.130.141.22 requirejs-talk.dev
-10.130.141.22 sitecatalyst.dev
-10.130.141.22 sweet-n-sassy.dev
-10.130.141.22 widgets.dev
-10.130.141.22 bv.dev
+127.0.0.1 FIS.dev
+127.0.0.1 ac-trueup.dev
+127.0.0.1 ally-base.dev
+127.0.0.1 allyforms_20090609.dev
+127.0.0.1 calculator.dev
+127.0.0.1 canada-modified.dev
+127.0.0.1 canada-modified2.dev
+127.0.0.1 corporate-rebrand.dev
+127.0.0.1 files.dev
+127.0.0.1 flowplayer.dev
+127.0.0.1 highcharts.dev
+127.0.0.1 jquery-require-sample.dev
+127.0.0.1 jquery-ui.dev
+127.0.0.1 me.dev
+127.0.0.1 raise-your-rate-cd.dev
+127.0.0.1 requirejs-old.dev
+127.0.0.1 requirejs-talk.dev
+127.0.0.1 sitecatalyst.dev
+127.0.0.1 sweet-n-sassy.dev
+127.0.0.1 widgets.dev
+127.0.0.1 bv.dev
 
+172.16.232.1
+
+
+172.16.232.1 FIS.dev
+172.16.232.1 ac-trueup.dev
+172.16.232.1 ally-base.dev
+172.16.232.1 allyforms_20090609.dev
+172.16.232.1 calculator.dev
+172.16.232.1 canada-modified.dev
+172.16.232.1 canada-modified2.dev
+172.16.232.1 corporate-rebrand.dev
+172.16.232.1 files.dev
+172.16.232.1 flowplayer.dev
+172.16.232.1 highcharts.dev
+172.16.232.1 jquery-require-sample.dev
+172.16.232.1 jquery-ui.dev
+172.16.232.1 me.dev
+172.16.232.1 raise-your-rate-cd.dev
+172.16.232.1 requirejs-old.dev
+172.16.232.1 requirejs-talk.dev
+172.16.232.1 sitecatalyst.dev
+172.16.232.1 sweet-n-sassy.dev
+172.16.232.1 widgets.dev
+172.16.232.1 bv.dev
