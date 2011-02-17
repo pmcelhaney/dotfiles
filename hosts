@@ -35,6 +35,8 @@ fe80::1%lo0	localhost
 127.0.0.1 widgets.dev
 127.0.0.1 bv.dev
 127.0.0.1 bv.local.ally.com
+127.0.0.1 password-strength-meter.dev
+
 
 172.16.232.1
 
@@ -61,3 +63,4 @@ fe80::1%lo0	localhost
 172.16.232.1 widgets.dev
 172.16.232.1 bv.dev
 172.16.232.1 bv.local.ally.com
+172.16.232.1 password-strength-meter.dev
