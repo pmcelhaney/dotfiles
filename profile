@@ -24,7 +24,7 @@ bind 'set completion-ignore-case on'
 export CDPATH=".:~:~/www:~/work"
 
 # see http://hivelogic.com/narrative/articles/using_usr_local
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/patrick/.gem/ruby/1.8/bin:/Applications/Browsers:$PATH"
 export LC_CTYPE=en_US.UTF-8 
 
 
