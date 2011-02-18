@@ -35,5 +35,5 @@ export JSTESTDRIVER_HOME=~/bin
 
 # http://stevelosh.com/projects/t/
 alias t='python /usr/bin/t/t.py --task-dir ~/tasks --list tasks'
-alias b='python /usr/bin/t/t.py --task-dir . --list todo'
+alias b='python /usr/bin/t/t.py --task-dir $(git rev-parse --show-toplevel) --list todo'
 
