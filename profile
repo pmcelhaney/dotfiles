@@ -9,9 +9,11 @@ export GIT_PS1_SHOWUNTRACKEDFILES=true
 PS1='\n\w$(__git_ps1 " (%s)")\n$ '
 
 
+
+
 if [ -n "$SSH_CLIENT" ]
     then 
-		PS1='\n\[\e[32m\u@\h\]\e[30;0m\] \w$(__git_ps1 " (%s)")\n$' 
+		PS1='\n\[\e[32m\u@\h\]\e[30;0m\] \w$(__git_ps1 " (%s)") [$(t | wc -l | sed -e's/ *//')]\n$' 
 fi                
 
 
@@ -30,4 +32,8 @@ export LC_CTYPE=en_US.UTF-8
 
                               
 export JSTESTDRIVER_HOME=~/bin
+
+# http://stevelosh.com/projects/t/
+alias t='python /usr/bin/t/t.py --task-dir ~/tasks --list tasks'
+alias b='python /usr/bin/t/t.py --task-dir . --list todo'
 
