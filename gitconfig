@@ -1,6 +1,6 @@
 [user]
 	name = Patrick McElhaney
-	email = patrick.mcElhaney@ally.com
+	email = patrick.mcelhaney@ally.com
 [core]
 	editor = mate -w
 	excludesfile = ~/.gitignore
@@ -11,3 +11,6 @@
 	interactive = auto
 	ui = true
 	pager = true
+[alias]
+	todo = !python /usr/bin/t/t.py --task-dir $(git rev-parse --show-toplevel) --list todo
+	
