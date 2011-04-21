@@ -36,6 +36,8 @@ fe80::1%lo0	localhost
 127.0.0.1 bv.dev
 127.0.0.1 bv.local.ally.com
 127.0.0.1 password-strength-meter.dev
+127.0.0.1 codeconf.dev
+127.0.0.1 allybank.ugc.bazaarvoice.com
 
 172.16.232.1
 

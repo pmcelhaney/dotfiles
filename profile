@@ -26,7 +26,7 @@ bind 'set completion-ignore-case on'
 export CDPATH=".:~:~/www:~/work"
 
 # see http://hivelogic.com/narrative/articles/using_usr_local
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/patrick/.gem/ruby/1.8/bin:/Applications/Browsers:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/patrick/bin:/Users/patrick/.gem/ruby/1.8/bin:/Applications/Browsers:$PATH"
 export LC_CTYPE=en_US.UTF-8 
 
 
@@ -36,4 +36,6 @@ export JSTESTDRIVER_HOME=~/bin
 # http://stevelosh.com/projects/t/
 alias t='python /usr/bin/t/t.py --task-dir ~/tasks --list tasks'
 alias b='python /usr/bin/t/t.py --task-dir $(git rev-parse --show-toplevel) --list todo'
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
