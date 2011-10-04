@@ -10,6 +10,8 @@
 fe80::1%lo0	localhost
 
 10.130.145.5 git-server
+#63.93.193.112 grants.ally.com
+#63.93.193.112 staging-grants.ally.com
 
 127.0.0.1 test.local
 
@@ -41,6 +43,8 @@ fe80::1%lo0	localhost
 127.0.0.1 interest-table-widget.dev
 127.0.0.1 allyforms.dev
 127.0.0.1 grants.dev
+127.0.0.1 postmessage.dev
+127.0.0.1 postmessage2.dev
 
 
 172.16.232.1 FIS.dev
