@@ -10,6 +10,9 @@
 fe80::1%lo0	localhost
 10.130.145.45	osx-updates osx-updates.private
 
+
+# 67.215.65.132 styleguide.allyux.com
+
 10.130.145.5 git-server
 #63.93.193.112 grants.ally.com
 #63.93.193.112 staging-grants.ally.com
