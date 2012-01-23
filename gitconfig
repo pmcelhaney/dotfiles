@@ -4,6 +4,7 @@
 [core]
 	editor = mate -w
 	excludesfile = ~/.gitignore
+	autocrlf = input
 [color]
 	diff = auto
 	status = auto
@@ -13,4 +14,5 @@
 	pager = true
 [alias]
 	todo = !python /usr/bin/t/t.py --task-dir $(git rev-parse --show-toplevel) --list todo
-	
+[branch]
+	autosetuprebase = always		  
