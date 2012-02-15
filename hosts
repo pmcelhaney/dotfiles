@@ -49,7 +49,7 @@ fe80::1%lo0	localhost
 127.0.0.1 grants.dev
 127.0.0.1 postmessage.dev
 127.0.0.1 postmessage2.dev
-
+127.0.0.1 locharts.dev  
 
 172.16.232.1 FIS.dev
 172.16.232.1 ac-trueup.dev

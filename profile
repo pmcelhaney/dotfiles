@@ -1,5 +1,5 @@
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-  . `brew --prefix`/etc/bash_completion
+if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
+  . `brew --prefix`/etc/bash_completion.d/git-completion.bash
 fi
 
 
@@ -39,3 +39,8 @@ alias b='python /usr/bin/t/t.py --task-dir $(git rev-parse --show-toplevel) --li
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
+export PATH=$HOME/local/node/bin:$PATH
+export NODE_PATH=$HOME/local/node:$HOME/local/node/lib/node_modules   
+
+
+eval "$(rbenv init -)"
