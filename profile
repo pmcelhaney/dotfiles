@@ -39,6 +39,8 @@ alias b='python /usr/bin/t/t.py --task-dir $(git rev-parse --show-toplevel) --li
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
+export PATH=~/bin:$PATH
+
 export PATH=$HOME/local/node/bin:$PATH
 export NODE_PATH=$HOME/local/node:$HOME/local/node/lib/node_modules   
 
