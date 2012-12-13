@@ -13,9 +13,6 @@ export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 PS1='\n\w$(__git_ps1 " (%s)")\n$ '
 
-
-
-
 if [ -n "$SSH_CLIENT" ]
     then 
 		PS1='\n\[\e[32m\u@\h\]\e[30;0m\] \w$(__git_ps1 " (%s)") [$(t | wc -l | sed -e's/ *//')]\n$' 
@@ -30,24 +27,7 @@ bind 'set completion-ignore-case on'
 # http://www.builderau.com.au/program/linux/soa/10-shortcuts-to-master-bash/0,339028299,339279043,00.htm
 export CDPATH=".:~:~/www:~/work"
 
-# see http://hivelogic.com/narrative/articles/using_usr_local
+# see http://hivelogic.com/articles/using_usr_local/
 export PATH=".:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/patrick/bin:/Users/patrick/.gem/ruby/1.8/bin:/Applications/Browsers:$PATH"
 export LC_CTYPE=en_US.UTF-8 
-
-
-                              
-export JSTESTDRIVER_HOME=~/bin
-
-# http://stevelosh.com/projects/t/
-alias t='python /usr/bin/t/t.py --task-dir ~/tasks --list tasks'
-alias b='python /usr/bin/t/t.py --task-dir $(git rev-parse --show-toplevel) --list todo'
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
 export PATH=~/bin:$PATH
-
-export PATH=$HOME/local/node/bin:$PATH
-export NODE_PATH=$HOME/local/node:$HOME/local/node/lib/node_modules   
-
-
-eval "$(rbenv init -)"
