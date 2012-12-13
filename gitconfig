@@ -2,7 +2,7 @@
 	name = Patrick McElhaney
 	email = patrick.mcelhaney@ally.com
 [core]
-	editor = mate -w
+	editor = subl -w
 	excludesfile = ~/.gitignore
 	autocrlf = input
 [color]
