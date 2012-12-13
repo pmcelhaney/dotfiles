@@ -1,6 +1,6 @@
 [user]
 	name = Patrick McElhaney
-	email = patrick.mcelhaney@ally.com
+	email = pmcelhaney@gmail.com
 [core]
 	editor = subl -w
 	excludesfile = ~/.gitignore
