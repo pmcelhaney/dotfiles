@@ -1,9 +1,14 @@
+# Show the git branch and status in the prompt 
+# http://superuser.com/questions/31744/how-to-get-git-completion-bash-to-work-on-mac-os-x
+
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
   . `brew --prefix`/etc/bash_completion.d/git-completion.bash
 fi
 
+if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
+    . `brew --prefix`/etc/bash_completion.d/git-prompt.sh
+fi
 
-# Set the prompt
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 PS1='\n\w$(__git_ps1 " (%s)")\n$ '
