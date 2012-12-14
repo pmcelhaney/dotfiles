@@ -16,3 +16,5 @@
 	todo = !python /usr/bin/t/t.py --task-dir $(git rev-parse --show-toplevel) --list todo
 [branch]
 	autosetuprebase = always		  
+[push]
+	default = simple
