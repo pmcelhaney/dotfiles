@@ -31,3 +31,6 @@ export CDPATH=".:~:~/www:~/work"
 export PATH=".:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/patrick/bin:/Users/patrick/.gem/ruby/1.8/bin:/Applications/Browsers:$PATH"
 export LC_CTYPE=en_US.UTF-8 
 export PATH=~/bin:$PATH
+
+
+alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
