@@ -34,3 +34,4 @@ export PATH=~/bin:$PATH
 
 
 alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
+alias scrum='node ~/scrum/scrum.js'
