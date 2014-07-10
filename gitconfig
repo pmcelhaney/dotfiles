@@ -5,6 +5,7 @@
 	editor = subl -w
 	excludesfile = ~/.gitignore
 	autocrlf = input
+	fileMode = false
 [color]
 	diff = auto
 	status = auto
