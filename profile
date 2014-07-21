@@ -25,7 +25,7 @@ bind 'set completion-ignore-case on'
 
 # Whenever you use the cd command, bash will check all the directories in the $CDPATH list for matches to the directory name.
 # http://www.builderau.com.au/program/linux/soa/10-shortcuts-to-master-bash/0,339028299,339279043,00.htm
-export CDPATH=".:~:~/www:~/work"
+export CDPATH=".:~:~/www:~/code"
 
 # see http://hivelogic.com/articles/using_usr_local/
 export PATH=".:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/Users/patrick/bin:/Users/patrick/.gem/ruby/1.8/bin:/Applications/Browsers:$PATH"
