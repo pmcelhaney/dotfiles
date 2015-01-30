@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+firstLine=$(head -n1 $1)
+jiraId=$(git branch | grep '*' | grep -E "nh\-\d+" -o) #The pattern needs to be tweaked per-project
+FILE=`cat "$1"`
+
+if [ -z "$firstLine"  ] ;then #Check that this is not an amend by checking that the first line is empty
+    echo "# $jiraId $FILE" > "$1"
+fi
