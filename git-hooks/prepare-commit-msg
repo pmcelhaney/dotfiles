@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# Usage:
+#
+# 1. Change the pattern below to match a Jira ID (or your ticket system of choice)
+# 2. When you create a branch, include the ticket ID in the branch
+#    e.g. bit checkout -b feature/nh-5309/more-cowbell
+# 3. When you commit, the default commit message will include your ID (nh-5309)
+
+firstLine=$(head -n1 $1)
+jiraId=$(git branch | grep '*' | grep -E "nh\-\d+" -o) #The pattern needs to be tweaked per-project
+FILE=`cat "$1"`
+
+if [ -z "$firstLine"  ] ;then #Check that this is not an amend by checking that the first line is empty
+    echo "# $jiraId $FILE" > "$1"
+fi
