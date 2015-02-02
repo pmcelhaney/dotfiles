@@ -35,3 +35,10 @@ export PATH=~/bin:$PATH
 
 alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
 alias scrum='node ~/scrum/scrum.js'
+
+# https://www.npmjs.org/package/phantomjs
+export PHANTOMJS_CDNURL=http://cnpmjs.org/downloads
+
+
+#http://www.mkyong.com/java/maven-java_home-is-not-defined-correctly-on-mac-osx/
+export JAVA_HOME=$(/usr/libexec/java_home)
