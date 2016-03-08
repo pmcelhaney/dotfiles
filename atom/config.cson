@@ -1,17 +1,24 @@
 "*":
-  "exception-reporting":
-    userId: "56253752-48ef-bfea-869c-b3d462201b39"
-  welcome:
-    showOnStartup: false
+  Termrk:
+    defaultHeight: 404
   "atom-beautify":
     _analyticsUserId: "fe690c76-1820-491d-a901-8067940dd941"
+  "atom-terminal":
+    MacWinRunDirectly: true
+    args: "-c /etc/launchd.conf"
+    setWorkingDirectory: false
   core:
     projectHome: "/Users/patrickmcelhaney/code"
   editor:
     invisibles: {}
+    preferredLineLength: 100
+    showInvisibles: true
+  "exception-reporting":
+    userId: "56253752-48ef-bfea-869c-b3d462201b39"
+  linter:
+    showErrorPanel: false
+  "linter-eslint": {}
   term3:
     autoRunCommand: "login -f `whoami`"
-  "atom-terminal":
-    args: "-c /etc/launchd.conf"
-    setWorkingDirectory: false
-    MacWinRunDirectly: true
+  welcome:
+    showOnStartup: false

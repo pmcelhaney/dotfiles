@@ -1,6 +1,8 @@
 # Show the git branch and status in the prompt
 # http://superuser.com/questions/31744/how-to-get-git-completion-bash-to-work-on-mac-os-x
-source ~/.bash_git
+source /usr/local/etc/bash_completion.d/git-prompt.sh
+source /usr/local/etc/bash_completion.d/git-completion.bash
+
 
 
 export GIT_PS1_SHOWDIRTYSTATE=true
@@ -36,3 +38,6 @@ export PHANTOMJS_CDNURL=http://cnpmjs.org/downloads
 
 #http://www.mkyong.com/java/maven-java_home-is-not-defined-correctly-on-mac-osx/
 export JAVA_HOME=$(/usr/libexec/java_home)
+
+export HTTP_PROXY="http://local-http-proxy:8888"
+export HTTPS_PROXY="http://local-http-proxy:8888"
