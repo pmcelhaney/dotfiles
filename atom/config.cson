@@ -1,6 +1,5 @@
 "*":
-  Termrk:
-    defaultHeight: 404
+  Termrk: {}
   "atom-beautify":
     _analyticsUserId: "fe690c76-1820-491d-a901-8067940dd941"
   "atom-terminal":
@@ -10,6 +9,7 @@
   core:
     projectHome: "/Users/patrickmcelhaney/code"
   editor:
+    fontSize: 13
     invisibles: {}
     preferredLineLength: 100
     showInvisibles: true

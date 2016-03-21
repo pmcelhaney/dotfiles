@@ -1,6 +1,10 @@
+if [ -f "$(brew --prefix bash-git-prompt)/share/gitprompt.sh" ]; then
+  GIT_PROMPT_THEME=Default
+  source "$(brew --prefix bash-git-prompt)/share/gitprompt.sh"
+fi
+
 # Show the git branch and status in the prompt
 # http://superuser.com/questions/31744/how-to-get-git-completion-bash-to-work-on-mac-os-x
-source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
 
 export GIT_PS1_SHOWDIRTYSTATE=true
