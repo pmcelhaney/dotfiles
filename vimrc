@@ -27,3 +27,4 @@ set spell
 autocmd BufRead,BufNewFile *.md setlocal spell
 autocmd FileType gitcommit setlocal spell
 set complete+=kspell
+set spellfile=~/.vim/spell/en.utf-8.add
