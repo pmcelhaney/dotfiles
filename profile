@@ -34,7 +34,7 @@ export PATH=~/bin:$PATH
 
 
 alias chrome='/usr/bin/open -a "/Applications/Google Chrome.app"'
-alias scrum='node ~/scrum/scrum.js'
+alias r='npm run -s'
 
 # https://www.npmjs.org/package/phantomjs
 export PHANTOMJS_CDNURL=http://cnpmjs.org/downloads
