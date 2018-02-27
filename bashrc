@@ -7,7 +7,6 @@ fi
 
 GIT_PROMPT_THEME=Solarized
 
-source <(npm completion)
 
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
@@ -50,3 +49,5 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+source <(npm completion)
